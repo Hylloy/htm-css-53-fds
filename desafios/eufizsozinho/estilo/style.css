@@ -23,20 +23,20 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-color: rgba(112, 0, 0, 0.692);
     color: white;
     text-align: center;
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 10px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 header a, footer a {
@@ -68,9 +68,9 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(61, 61, 61, 0.466);
     color: white;
-    box-shadow: inset 6px 7px 13px 0px rgba(0, 0, 0, 0.377);
+    box-shadow: inset 6px 7px 13px 0px rgba(0, 0, 0, 0.288);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -78,18 +78,28 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.521);
+    background-color: rgba(0, 0, 0, 0.623);
     text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('../imagens/girassol.jpg');
     background-position: right center;
     background-size: cover;
 }
 
 section#img02 {
-    background-image: url(../imagens/background002.jpg);
+    background-image: url(../imagens/lua3.jpg);
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url(../imagens/amor.jpg);
+    background-size: cover;
+}
+
+section#img04 {
+    background-image: url(../imagens/flozinha.png);
     background-size: cover;
 }
 
